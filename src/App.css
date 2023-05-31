@@ -1,10 +1,105 @@
-#root {
-  max-width: 1280px;
+body {
+  background:#fbe3ee;
+  color: #241818;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://e0.pxfuel.com/wallpapers/515/1005/desktop-wallpaper-cat-lover-aesthetic-pusheen-hanging-out-day-nintendo-switch-art-cute-cat-drawing-cute-cat-art-kawaii-cute-pusheen-kawaii-nintendomem-in-2020-cute-cat-drawings.jpg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 40% 100%;
+}
+.form {
+  width: 500px;
+  margin: 0 auto; 
+  padding: 20px; 
+  background:#facad6;
+  border: 1px solid #f5a4b5; 
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(40, 26, 26, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   margin: 0 auto;
-  padding: 2rem;
+  margin-bottom: 20px;
+
+}
+
+form label { 
+  display: block; 
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: lighter ;
+  font-size: 16px;
+  line-height: 1.5;
+}
+input:focus {
+  border-color: #fcbcea;
+  outline: 0;
+  border: 1px solid #f05684;
+  border-radius: 3px;
+  padding: 10px;
+  background: #fff;
+  color: #1c1212;
+  width: 100%;
+  font-size: 16px;
+}
+
+.card {
+  background-color: #fad4e8;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(41, 25, 25, 0.2);
+  padding: 10px;
+  width: 300px;
+  margin: 25px;
+}
+
+.card-content {
   text-align: center;
 }
 
-p{
-  font-size: 1.25rem;
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+
+}
+
+.btn {
+  background-color: #ec91b7;
+  border-radius: 4px;
+  color: #311f1f;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f76a99;
 }
